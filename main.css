@@ -13,6 +13,7 @@ body a{
 .flexible-container{
     display: flex;
     box-sizing: border-box;
+    margin-bottom: 150px;
 }
 #top-banner{
     background-image: url(images/top-banner.png);
@@ -36,9 +37,17 @@ body a{
     text-align: justify;
     padding: 0 15% 3% 0;
 }
-.hire-me-button{
-    background: linear-gradient(45deg, lightsalmon, tomato);
+#hire-me-button{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
 .half-width img{
     width: 80%;
+}
+#second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#resume-button{
+    background-image: linear-gradient(45deg, #f55c98, #FF1F76);
 }
