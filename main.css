@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+body a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.flexible-container{
+    display: flex;
+    box-sizing: border-box;
+}
+#top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+.half-width{
+    width: 50%;
+    padding: 5% 0 0 5%;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.half-width h3{
+    font-size: 40px;
+}
+.orange-text{
+    color: orange;
+}
+.half-width p{
+    text-align: justify;
+    padding: 0 15% 3% 0;
+}
+.hire-me-button{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+}
+.half-width img{
+    width: 80%;
+}
